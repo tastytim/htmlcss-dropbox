@@ -58,12 +58,30 @@ ul {
   transform: translate(-50%, -50%);
 }
 
+.col-9-3{
+    width: calc(100% / 9 * 3);
+}
+
+.col-9-5{
+    width: calc(100% / 9 * 5);
+}
+
+.col-9-6{
+    width: calc(100% / 9 * 6);
+}
+
+.col-9-4{
+    width: calc(100% / 9 * 4);
+}
+
+.col-9-2{
+    width: calc(100% / 9 * 2);
+}
+
 /* HEADER MENU NAV*/
 
 .fixed-nav {
   width: 100%;
- 
-  
   position: fixed;
   margin: 0 auto;
   background-color: white;
@@ -77,7 +95,7 @@ ul {
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 .ul a {
@@ -96,9 +114,9 @@ ul {
   position: relative;
 }
 
-.nav-right{
-    position: absolute;
-    right: 0;
+.nav-right {
+  position: absolute;
+  right: 0;
 }
 
 .nav-right,
@@ -127,7 +145,7 @@ ul {
 }
 
 /* HEADER TEXT AND IMG */
-.container-main {
+.container-header {
   margin: 0 auto;
   width: 100%;
 }
@@ -199,4 +217,142 @@ ul {
 
 .container-black {
   background-color: #000;
+}
+
+/* MAIN */
+
+.container-main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-large {
+  width: 83.333%;
+  max-width: 1080px;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.blocco-colonne{
+    width: 100%;
+    position: relative;
+}
+
+.radio{
+    margin:0 5px;
+}
+
+.colonna-1{
+    position: relative;
+    margin-right: 40px;
+    width: calc(100% / 9 * 3 - 40px);
+}
+
+.colonna-3{
+    position: relative;
+    margin-left: 40px;
+    width: calc(100% / 9 * 3 - 40px);
+}
+
+.colonna-2{
+    margin: 0 20px;
+    width: calc(100% / 9 * 3 - 40px);
+    position: relative;
+}
+
+
+
+.radio-checks{
+    margin-top: 50px;
+}
+
+.blocco-colonne{
+    margin-top: 40px;
+    height: 100%;
+}
+
+.colonna{
+    border:1px solid grey;
+    height: 100%;
+}
+
+.col-head{
+  font-weight: bold;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.col-block-1, .col-block2{
+    padding: 20px 20px;
+    line-height: 2;
+}
+
+.col-block-1 a{
+    color:white;
+}
+
+.col-block-1 button{
+   margin:20px 0;
+}
+
+
+
+.col-block2 ul li{
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.col-block2 ul li::before{
+    list-style: outside;
+    content: '✔ ';
+    color:skyblue;
+
+}
+
+.hr2{
+    width: 30%;
+    margin:20px
+}
+
+
+/* ENTERPRISE */
+
+.enterprise-block{
+    margin-top:50px;
+    height: 300px;
+    line-height: 2;
+}
+
+.hr{
+    width: 100%;
+}
+
+
+.enterprise-block .button-blu a{
+    color: white;
+}
+
+.enterprise-left, .enterprise-right{
+    padding: 30px 20px;
+}
+
+.enterprise-right{
+    text-align: center;
+}
+
+/* ENTRA IN CONTATTO */
+
+.entra-in-contatto .col-9-5{
+    position: relative;
+}
+
+.img-entra-in-cotatto{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background-position: center;
+    background-size: contain;
+    background: url("../img/partner.png");
+    background-repeat: no-repeat;
 }
