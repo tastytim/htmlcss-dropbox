@@ -60,6 +60,7 @@ ul {
 
 .col-9-3 {
   width: calc(100% / 9 * 3);
+  height: 100%;
 }
 
 .col-9-5 {
@@ -239,7 +240,6 @@ ul {
 .container-large {
   width: 83.333%;
   max-width: 1080px;
-  height: 1000px;
   margin: 0 auto;
   margin-top: 150px;
 }
@@ -282,7 +282,7 @@ ul {
 
 .colonna {
   border: 1px solid grey;
-  height: 100%;
+  height: 1000px;
 }
 
 .col-head {
@@ -382,19 +382,18 @@ ul {
 }
 
 .operazioni-small-container {
-    padding: 20px 30px;
+  padding: 20px 30px;
   display: inline-block;
 }
 
-.colonna-operazioni{
-    display: inline-block;
+.colonna-operazioni {
+  display: inline-block;
 }
 
-
-.operazioni-block{
-    margin-right: -30px;
-    margin-left: -30px;
-    margin-bottom:100px;
+.operazioni-block {
+  margin-right: -30px;
+  margin-left: -30px;
+  margin-bottom: 100px;
 }
 
 .img-1 {
@@ -416,7 +415,6 @@ ul {
   background: url("../img/business-feature-switching-tools.png");
 }
 
-
 .operazioni-img {
   width: 100%;
   height: 100%;
@@ -429,8 +427,145 @@ ul {
   margin-top: 30px;
 }
 
-.operzioni-footer-header{
-    line-height: 2;
-    margin-bottom: 100px;
-    width: 60%;
+.operzioni-footer-header {
+  line-height: 2;
+  margin-bottom: 100px;
+  width: 60%;
+}
+
+.container-multicolor {
+  width: 100%;
+  height: 30vw;
+}
+
+.square {
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+
+.square-green {
+  background-color: #a2d39b;
+}
+
+.squares-2,
+.squares-1,
+.squares-3 {
+  width: 100%;
+  height: 100%;
+}
+
+.square-bordeaux {
+  background-color: #61082b;
+}
+
+.square-skyeblue {
+  background-color: #0093ce;
+}
+
+.square-acidred {
+  background-color: #ff1c1c;
+}
+
+.square-grey {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+.square-red {
+  background-color: #d5001f;
+}
+
+.square-celeste {
+  background-color: #b4d0e7;
+}
+
+.square-blue {
+  background-color: #0d2481;
+}
+
+.square-yellow {
+  background-color: #ffd830;
+}
+
+.square-img-1 {
+  background: url("../img/designit.svg");
+}
+.square-img-2 {
+  background: url("../img/arizona_state_university.svg");
+}
+.square-img-3 {
+  background: url("../img/university_of_florida.svg");
+}
+.square-img-4 {
+  background: url("../img/topps.svg");
+}
+.square-img-5 {
+  background: url("../img/world_bicycle_relief.svg");
+}
+.square-img-6 {
+  background: url("../img/hearst_corp.svg");
+}
+.square-img-7 {
+  background: url("../img/lonely_planet.svg");
+}
+.square-img {
+  width: 50%;
+  height: 50%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.square-img-8 {
+  background: url("../img/clear_channel.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 30%;
+  position: relative;
+  left: 25%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.square-grey-descr {
+  height: 100%;
+  position: relative;
+  top: 10%;
+  padding: 10px 20px;
+  overflow: auto;
+  line-height: 2;
+}
+
+.container-multicolor-low {
+  height: 20vw;
+  width: 100%;
+  background: #b4d0e7;
+  display: inline-block;
+}
+
+.col-50 {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.container-multicolor-low-width {
+  position: relative;
+  width: 83.333%;
+  max-width: 1080px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.vertical-align {
+  position: absolute;
+  top: 30%;
+}
+
+.align-right {
+  right: 0;
 }
