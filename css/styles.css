@@ -8,7 +8,7 @@
 
 body {
   font-family: "Space Grotesk", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h3 {
 
 h4,
 h5 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 a {
@@ -565,28 +565,62 @@ ul {
 .vertical-align {
   position: absolute;
   top: 30%;
-
 }
 
 .align-right {
   right: 0;
 }
 
-
 /* DOMANDE */
 
-.container-domande{
-   margin:120px auto;
+.container-domande {
+  margin: 120px auto;
 }
 
-.container-domande h3{
-    margin-bottom:30px;
+.container-domande h3 {
+  margin-bottom: 30px;
 }
 
-.p2{
-font-weight: bold;
+.p2 {
+  font-weight: bold;
 }
 
-.questions{
-    line-height: 4;
+.questions {
+  line-height: 4;
+}
+
+/* FOOTER */
+
+.container-black {
+  background: black;
+  color: white;
+  height: 100%;
+  line-height: 3;
+}
+
+.lists-container {
+  position: relative;
+  padding: 100px 20px;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.footer-low {
+  padding-bottom: 100px;
+}
+
+.footer-low hr {
+  width: 10%;
+}
+
+.div-select {
+  padding-top: 50px;
+}
+
+.footer-low select {
+  background: black;
+  border: black;
+  color: white;
 }
