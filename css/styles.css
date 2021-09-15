@@ -538,6 +538,7 @@ ul {
 }
 .square-img-5 {
   background: url("../img/world_bicycle_relief.svg");
+  filter: invert(1);
 }
 .square-img-6 {
   background: url("../img/hearst_corp.svg");
