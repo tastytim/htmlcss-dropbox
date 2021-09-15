@@ -221,6 +221,25 @@ ul {
   top: 0;
 }
 
+/* ARROW ANIMATION */
+
+
+.fa-arrow-down{
+    color: rgba(88, 88, 88, 0.9);
+    position: relative;
+    animation:animateArrow 1s linear infinite ;
+}
+
+@keyframes animateArrow{
+    from{
+        top:0;
+    }
+    to{
+        top:30px;
+    }
+}
+
+
 /* CONTAINER COLORS */
 
 .container-celeste {
@@ -250,10 +269,6 @@ ul {
   position: relative;
 }
 
-.radio {
-  margin: 0 5px;
-}
-
 .colonna-1 {
   position: relative;
   margin-right: 40px;
@@ -274,6 +289,24 @@ ul {
 
 .radio-checks {
   margin-top: 50px;
+}
+
+.radio{
+    margin-right: 10px;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.radio:checked {
+    border:4px solid #0061ff;
 }
 
 .blocco-colonne {
@@ -578,7 +611,7 @@ ul {
 }
 
 .container-domande hr,
-i {
+.container-domande i {
   color: rgba(158, 158, 158, 0.7);
 }
 
